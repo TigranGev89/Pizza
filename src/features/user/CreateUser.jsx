@@ -25,7 +25,7 @@ function CreateUser() {
 
       <input
         type="text"
-        placeholder="Your full name"
+        placeholder="Your full Name"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
         className="input mb-8 w-72"
